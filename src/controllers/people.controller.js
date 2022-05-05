@@ -40,9 +40,6 @@ exports.CreatePeople = async (req, res) => {
     };
 };
 
-
-
-
 exports.listAllPeople = async (req, res) => {
     try {
         const { rows } = await db.query('SELECT * FROM peoples ORDER BY name ASC');

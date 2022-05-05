@@ -4,7 +4,6 @@ const yup = require('yup');
 exports.CreateProduct = async (req, res) => {
     try {
 
-
         const { product_name, quantity, price } = req.body;
         const shema = yup.object().shape({
             product_name: yup.string().required(),
@@ -40,7 +39,6 @@ exports.CreateProduct = async (req, res) => {
 
 exports.listAllProduct = async (req, res) => {
     try {
-
 
         const { rows } = await db.query('SELECT * FROM products ORDER BY productname ASC');
         res.status(200).send({
