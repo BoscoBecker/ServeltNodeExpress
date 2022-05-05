@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"api","dependencies":{"cors":{"version":"2.8.5"},"dotenv":{"version":"16.0.0"},"express-promise-router":{"version":"4.1.1"},"express":{"version":"4.18.1"},"pg":{"version":"8.7.3"},"yup":{"version":"0.32.11"}}}
