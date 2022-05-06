@@ -3,13 +3,13 @@ Aprendizado Node + Express +Postgres +yup
 
 Two Routers created
 ## produtc
-Route http://localhost:3000/api/products  - All produtcs
+Route http://localhost:3000/api/products  - All products
 
-Route http://localhost:3000/api/products/{id}  - Produtcs by id
+Route http://localhost:3000/api/products/{id}  - products by id
 
-Route http://localhost:3000/api/products  - Create a product (POST)
+Route http://localhost:3000/api/products  - Create a products (POST)
 
-Route http://localhost:3000/api/products/{id}   - Delete a product (DELETE)
+Route http://localhost:3000/api/products/{id}   - Delete a products (DELETE)
 
 
 ## People
